@@ -1,0 +1,279 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url(fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf);
+   }
+
+html,
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+    letter-spacing: 2.2px;
+	padding-bottom: 6px;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 20px;
+}
+
+h3 {
+	padding-bottom: 10px;
+}
+h5{
+	padding-bottom: 5px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+
+nav.navbar {
+	border: 0;
+	margin: 0;
+}
+
+#responsive-menu {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.top_container {
+	padding-top: 36px;
+	padding-bottom: 25px;
+}
+
+.navbar-padding {
+	margin-top: -6px;
+	padding-left: 50px;
+}
+
+.navbar-padding li {
+	padding-left: 20px;
+}
+.carousel_content{
+	bottom: 27%;
+}
+.dark_fone{
+	display: table;
+	background: #506a85;
+	margin-top: -5px;
+}
+.dark_fone_right{
+	display: table;
+	background: #506a85;
+	margin-top: -5px;
+	margin-left: auto;
+}
+.carousel_content_last{
+	top: 5%;
+}
+.carousel_content p{
+	font-size: 23px;
+    letter-spacing: 0.8px;
+}
+
+.carousel_content button{
+	margin-top: 50px;
+    padding: 18px 65px 18px 65px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.carousel_content_last p{
+	font-size: 23px;
+    letter-spacing: 0.8px;
+}
+.carousel_content_last button{
+	margin-top: 50px;
+    padding: 18px 65px 18px 65px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seach_padding {
+	padding-right: 25px;
+	font-size: 10px;
+}
+.main_text {
+	font-size: 21px;
+	letter-spacing: 0.6px;
+	line-height: 34px;
+	padding-bottom: 35px;
+}
+
+.aside_icon {
+	color: #00bc9c;
+	font-size: 60px;
+	position: absolute;
+	top: 16px;
+	left: 25px;
+}
+
+.aside_text {
+	float: right;
+	width: 73%;
+}
+
+.aside_text p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.container_works {
+	padding-top: 100px;
+	background: #f2f5f7;
+	padding-bottom: 155px;
+}
+
+.main_padding {
+	margin-top: 107px;
+	margin-bottom: 120px;
+}
+.main-item_1{
+	padding-top: 27px;
+    padding-bottom: 30px;
+}
+.main-item_2{
+	padding-top: 95px;
+    padding-bottom: 140px;
+}
+
+.portfolio-item {
+	margin: 0 0 48px;
+	right: 0;
+}
+.portfolio-link {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+.portfolio-text{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.caption {
+	background: #18BC9C;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+.portfolio-item :hover {
+	opacity: 0.8;
+}
+.caption-content {
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	text-align: center;
+	top: 50%;
+	margin-top: -12px;
+	color: white;
+}
+a:hover{
+	color: #18BC9C;
+	text-decoration: none
+}
+a{
+	color: #a3b1bf;
+	cursor: pointer;
+}
+.footer-above {
+	color: white;
+	padding-top: 58px;
+	background-color: #2f4052;
+	padding-bottom: 65px;
+}
+.footer-below {
+    margin-right: -30px;
+    padding: 20px 0px;
+    background-color: #283645;
+    font-size: 18px;
+}
+footer h4 {
+ 	margin-bottom: 22px;
+	letter-spacing: 2px;
+ }
+footer h6 {
+	padding-top: 15px;
+}
+footer p {
+ 	margin-top: 22px;
+	color: #a3b1bf;
+ }
+.footer-item {
+}
+.footer-link {
+	display: block;
+	position: relative;
+	margin: 0 -15px 2px -15px;
+	padding: 0;
+}
+
+.footer-item :hover {
+	opacity: 0.8;
+}
+.footer_arrow::after{
+	content: "\2192";
+	font-size: 16px;
+	vertical-align: top;
+	padding-left: 7px;
+}
+.footer_down{
+	background: #283645;
+	color: #707e8c;
+}
+.form_seach{
+	position: relative;
+	
+}
+.form_button{
+	height: 80%;
+	position: absolute;
+	right: 5px;
+	top:0px;
+	bottom: 0;
+	margin: auto;
+}
+.footer_down_margin{
+	margin: 6px -20px 27px -15px;
+}
+li {
+    list-style-type: none; 
+	font-size: 14px;
+	color: #a3b1bf;
+}
+.mobile:before {
+   font-family: FontAwesome;
+   content: "\f10b";
+	padding-right: 14px;
+}
+.envelope:before {
+	font-family: FontAwesome;
+   	content: "\f003";
+	padding-right: 8px;
+}
+.map-marker:before {
+	font-family: FontAwesome;
+   	content: "\f041";
+    padding-right: 14px;
+}
+footer ul{
+	padding-top: 10px;
+}
+.author{
+	position: absolute;
+
+}
+.btn_modal{
+	padding: 12px 30px 12px 30px;
+    margin: -8px;
+}
+.btn_carousel_1{
+	font-size: 18px;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+}
